@@ -26,3 +26,10 @@ window.addEventListener('scroll', reveal);
       }
     }
   }
+
+
+// var width = $(document).width();
+// if (width < 500) {
+//
+// $("h1").addClass(".mobile-view-font");
+// }

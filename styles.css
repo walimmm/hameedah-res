@@ -1,4 +1,8 @@
 /* navbar */
+body {
+  overflow-x: hidden;
+
+}
 .colored-section{
   background-color: #39F7C7;
   text-align: center;
@@ -50,12 +54,13 @@ background-color: #39F7C7;
     visibility: hidden;
   }
 }
+
+
 .fa-bowl-food{
   position: absolute;
-margin-top: 3px;
 top: 0;
-left: 40%;
-color: red;
+left: 44%;
+color: green;
 }
 
 .list{
@@ -69,6 +74,20 @@ color: red;
 .logo{
   position: relative;
 }
+.firstLogo{
+  position: relative;
+}
+@media (max-width: 500px) {
+  .logo{
+    display: none;
+  }
+}
+.fa-circle-user{
+  color: #0B4619;
+}
+
+
+
 /* .container{
   padding: 2% 7%;
   position: fixed;
@@ -115,6 +134,20 @@ color: red;
 .rw{
   padding: 15% 15% 7%;
 }
+@media (max-width: 500px) {
+  .mobile-view-font{
+    font-size: 2.5rem;
+  }
+  .div-pos{
+    padding-top: 9%;
+  }
+  .testimonial-image {
+
+    border-radius: 100%;
+    margin: 30px 20px 0 0;
+  }
+  }
+
 h1{
 
   font-size: 3.5rem;
@@ -136,6 +169,7 @@ h1{
 .second-link:hover{background-color: #0B4619; }
 .foodImg{
   width: 100%;
+  height: 60%;
 }
 .little{
   height: 15px;
@@ -164,13 +198,16 @@ font-weight: normal;
 color: #0B4619;
 }
 .cake{
-  width: 80%;
+  width: 60%;
   height: 70%;
-  padding-right: 7%;
+
 }
 .meatPie{
-  width: 80%;
+  width: 60%;
   height: 70%;
+}
+.natural{
+  text-align: center;
 }
 .vectorC{
 margin-top: 14px;
@@ -224,19 +261,23 @@ margin-top: 14px;
   margin-bottom: 60px;
   text-align: center;
 }
+
 .menu{
   width: 70%;
   height: 300px;
   margin-top: 40px;
-  margin-bottom: 1px;
+  margin-bottom: 10px;
 }
 .puff{
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   color: #0B4619;
 }
 @media (max-width: 500px) {
+  .textMenu{
+    font-size: 2.5rem;
+  }
   .specials{
     text-align: center;
     }
@@ -274,9 +315,14 @@ margin-top: 14px;
   text-align: center;
 }
 .testimonial-image {
-  width: 15%;
+  width: 30%;
   border-radius: 100%;
-  margin: 40px 40px 0 0;
+  margin: 30px 20px 0 0;
+}
+@media (max-width: 500px) {
+  .testimonial-text{
+    font-size: 2rem;
+  }
 }
 .carousel-control-prev-icon{
   background-color: black;
