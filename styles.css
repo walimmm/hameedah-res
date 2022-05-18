@@ -136,10 +136,10 @@ color: green;
 }
 @media (max-width: 500px) {
   .mobile-view-font{
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .div-pos{
-    padding-top: 9%;
+    padding-top: 35%;
   }
   .testimonial-image {
 
