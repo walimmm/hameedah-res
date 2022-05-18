@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>FOODISCO</title>
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <meta charset="utf-8" meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <script src="https://kit.fontawesome.com/0820cad636.js" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Libre+Baskerville:ital,wght@0,700;1,400&family=Montserrat:wght@200;300;400;700;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&family=Montserrat:wght@200;300;400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg fixed-top navbar-fixed-top">
+
+<div class="container-fluid">
+
+  <a class="navbar-brand full font-style" href="#">Foodisco</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link col mobile-view-font" href="#">What's Cooking</a>
+          </li> <br class="mobile-line-break">
+          <li class="nav-item">
+            <a class="nav-link col mobile-view-font" href="#">Menu</a>
+          </li> <br class="mobile-line-break">
+           <li class="nav-item">
+             <a class="nav-link col  mobile-view-font" href="#">About</a>
+           </li> <br class="mobile-line-break">
+           <li class="nav-item">
+             <a class="nav-link col mobile-view-font" href="#">Contact</a>
+           </li>
+        </ul>
+<div class="logo fa-beat" style="--fa-animation-duration: 2s;" style="display:flex;flex-direction:column">
+  <i class="fa-solid d-inline-block fa-bowl-food fa-2xl"></i>
+    <a class="navbar-brand font-style" href="#"> Foodisco</a>
+</div>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link col mobile-view-diss" href="#"><i class="fa-solid fa-circle-user fa-xl col"></i>Log in</a>
+          </li>
+          <li class="nav-item">
+              <a class="btn btn-lg order-btn laptop-view-diss" role="button">Order</a>
+            </li> <br class="mobile-line-break">
+            <li class="nav-item">
+              <a class="nav-link col d-inline-block" href="#"><i class="fa-brands fa-facebook-f col fa-xl d-inline-block"></i></a>
+              <a class="nav-link col d-inline-block" href="https://twitter.com/MeedahMoore?s=20&t=BsfABY1AemiZuq0u6CnO7Q"><i class="fa-brands fa-twitter col fa-xl d-inline-block"></i></a>
+              <a class="nav-link col d-inline-block" href="https://www.instagram.com/foodisco_/"><i class="fa-brands fa-instagram col fa-xl d-inline-block"></i></a>
+            </li> <br class="mobile-line-break">
+            <li class="nav-item">
+              <a class="btn btn-lg order-btn mobile-view-diss" role="button">Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link col laptop-view-diss" href="#"><i class="fa-solid fa-circle-user fa-xl col"></i>Log in</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+</div>
+</nav>
+
+      <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+          <div class="container-fluid">
+        <a class="navbar-brand " href="">tindog</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav list">
+            <li class="nav-item">
+              <a class="nav-link col user" href="#"><i class="fa-solid fa-user fa-2x"></i> <span class="text">Log in</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link col" href="#"><i class="fa-brands fa-facebook-f fa-2x"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link col" href="#"><i class="fa-brands fa-twitter fa-2x"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link col" href="www.google.com"><i class="fa-brands fa-instagram fa-2x"></i></a>
+            </li>
+            <a class="btn btn-lg order-btn" role="button">Order</a>
+          </ul>
+        </div>
+
+      </nav> -->
+    </div>
+    <div class="row rw ">
+      <div class="col-lg-12 title">
+        <h1>Fresh cooked food, at your door</h1>
+        <a class="btn btn-lg second-link fa-beat" style="--fa-animation-duration: 2s;" href="#" role="button">Order Online</a>
+      </div>
+    </div>
+    <img class="foodImg reveal" src="images/foodImg.png" alt="image of food">
+    <div class="little ">
+    </div>
+  </section>
+  <!-- nextSection -->
+
+  <section class="nextSection">
+    <div class="row">
+      <div class="col-md-6 secTitle reveal">
+        <h2>Natural, delicious food that tastes like home</h2>
+      </div>
+      <div class="col-md-6 secParagraph reveal">
+        <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a
+          little more about you.</p>
+      </div>
+
+      <div class="row reveal">
+        <div class="col-md-6 reveal">
+          <img class="cake" src="images/cake.png" alt="food Image" />
+        </div>
+        <div class="col-md-6">
+          <img class="meatPie" src="images/meatPie.png" alt="MeatPie image">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 reveal">
+          <img class="vectorC" src="images/carrotM.png" alt="Carrot Image">
+          <h3 class="first">Quality Ingredients</h3>
+          <p class="VecP">I'm a paragraph. Click here to add your own text and edit me.</p>
+        </div>
+        <div class="col-lg-3 reveal">
+          <img class="vectorP" src="images/pan-modified.png" alt="Frying pan Image">
+          <h3 class="second">Balanced Meals</h3>
+          <p class="VecP">I'm a paragraph. Click here to add your own text and edit me.</p>
+        </div>
+        <div class="col-lg-3 reveal">
+          <img class="vectorH" src="images/hot-modified.png" alt="Hot image">
+          <h3 class="third">Order On the Go</h3>
+          <p class="VecP">I'm a paragraph. Click here to add your own text and edit me.</p>
+        </div>
+        <div class="col-lg-3 reveal">
+          <img class="vectorD" src="images/door-modified.png" alt="Door image">
+          <h3 class="fourth">Doorstep Delivery</h3>
+          <p class="VecP">I'm a paragraph. Click here to add your own text and edit me.</p>
+        </div>
+      </div>
+  </section>
+
+  <!-- Third section -->
+<section class="specials">
+  <h1 class="textMenu">Try Our Daily Specials</h1>
+  <div class="row ">
+    <div class="col-lg-4 reveal">
+      <img class="menu ne" src="images/curry.png" alt="">
+      <h4 class=" puff">Frying chicken something</h4>
+      <p class="para ">I’m an item. ​Click here to edit me.</p>
+    </div>
+    <div class="col-lg-4 reveal">
+      <img class="menu" src="images/rice.png" alt="">
+      <h4 class=" puff">Rice with stew</h4>
+      <p class="para ">I’m an item. ​Click here to edit me.</p>
+    </div>
+    <div class="col-lg-4 reveal">
+      <img class="menu" src="images/puff.png" alt="">
+      <h4 class=" puff">Puff Puff</h4>
+      <p class="para ">I’m an item.  ​Click here to edit me.</p>
+    </div>
+<a class="btn btn-lg second-link click fa-beat" style="--fa-animation-duration: 2s;" href="#" role="button">View menu</a>
+  </div>
+</section>
+
+<!-- testimonial -->
+
+<section class="testimonial-section" >
+
+  <div id="testimonial-carousel" class="carousel slide reveal" data-ride="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active activee container-fluid">
+        <h2 class="testimonial-text">I absolutely love your food! Its been on my mind all day, please dont stop cooking lol</h2>
+        <img class="testimonial-image waliu-img" src="images/waliu.png" alt="dog-profile">
+        <em>Waliu, Nigeria</em>
+      </div>
+      <div class="carousel-item activee container-fluid">
+        <h2 class="testimonial-text">I dont think my taste bubs would ever be the same. I enjoyed your food!!</h2>
+        <img class="testimonial-image ronke-img" src="images/ronke-modified.png" alt="lady-profile">
+        <em>Ronke, Canada</em>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+  <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div> -->
+</section>
+
+<section class="footer">
+  <div class="row reveal">
+    <div class="col-lg-4 cen ser">
+      <h3 class="h3-footer">Service</h3>
+      <p class="footer-paragraph">Same-Day delivery. <br />All over San Francisco</p>
+      <p class="footer-paragraph">Mon - Fri: 11am - 10pm​.<br />Sat - Sun: 11am - 12am</p>
+      <br> <br>
+    </div>
+    <div class="col-lg-4 cen">
+      <h3 class="h3-footer">Sign up and Order now</h3>
+      <a class="btn btn-lg second-link click fa-beat" style="--fa-animation-duration: 2s;" href="#" role="button">Order now</a>
+<br> <br> <br>
+    </div>
+    <div class="col-lg-4 cen">
+      <h3 class="h3-footer">Contact</h3>
+      <p class="footer-paragraph">Tel: +23409032751763 <br />Mail: oshoamidat@gmail.com</p>
+      <p class="footer-paragraph">Lagos state<br />I dont know lol</p>
+    </div>
+    </div>
+    <div class="footer-icons reveal">
+      <a class="nav-link footer-col d-inline-block" href="#"><i class="fa-brands fa-facebook-f footer-col fa-xl d-inline-block"></i></a>
+      <a class="nav-link footer-col d-inline-block" href="https://twitter.com/MeedahMoore?s=20&t=BsfABY1AemiZuq0u6CnO7Q"><i class="fa-brands fa-twitter footer-col fa-xl d-inline-block"></i></a>
+      <a class="nav-link footer-col d-inline-block" href="https://www.instagram.com/foodisco_/"><i class="fa-brands fa-instagram footer-col fa-xl d-inline-block"></i></a>
+    </div>
+    <div class="address">
+      <p><em>© 2022 by FOODISCO. Proudly created by Hameedah Osho</em></p>
+    </div>
+
+</section>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="res.js" charset="utf-8"></script>
+  </body>
+
+</html>
